@@ -1,0 +1,22 @@
+{
+  "author": "Julian Duniec <julian.duniec@gmail.com> (http://julian.duniec.se/)",
+  "name": "social-url",
+  "description": "Fetches social information related to an URL",
+  "version": "0.0.0",
+  "repository": {
+    "url": ""
+  },
+  "engines": {
+    "node": ">=0.8.14"
+  },
+  "scripts" : {
+    "start" : "node main.js",
+    "test" : "nodeunit tests"
+  },
+  "dependencies": {
+      "nodeunit" : "x.x.x"
+  },
+  "devDependencies": {},
+  "optionalDependencies": {}
+}
+
