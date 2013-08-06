@@ -18,4 +18,11 @@ exports.testFacebook = function(test) {
 		test.ok(results.facebook.stats.totalComments >= 7);
 		test.done();
 	});
+};
+
+exports.testTwitter = function(test) {
+	SocialUrl.fetch(test_url, function(err, results) {
+		test.ok(results.twitter.stats.postCount >= 811);
+		test.done();
+	})
 }

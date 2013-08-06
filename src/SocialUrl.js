@@ -2,7 +2,8 @@ module.exports = {
 	
 	fetchers : {
 		"reddit" : require('./fetchers/Reddit'),
-		"facebook" : require('./fetchers/Facebook')
+		"facebook" : require('./fetchers/Facebook'),
+		"twitter" : require('./fetchers/Twitter')
 	},
 
 	fetch : function() {
